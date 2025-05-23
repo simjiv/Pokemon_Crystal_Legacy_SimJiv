@@ -224,7 +224,7 @@ KakunaEvosAttacks:
 
 BeedrillEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PIN_MISSILE
+	db 1, POISON_STING
 	db 10, PIN_MISSILE
 	db 10, RAGE
 	db 12, FOCUS_ENERGY
@@ -316,8 +316,8 @@ SpearowEvosAttacks:
 	db 7, LEER
 	db 10, FURY_ATTACK
 	db 15, PURSUIT
-	db 22, TAKE_DOWN
-	db 26, WING_ATTACK
+	db 22, RAZOR_WIND
+	db 26, TAKE_DOWN
 	db 31, MIRROR_MOVE
 	db 37, DRILL_PECK
 	db 43, AGILITY
@@ -331,8 +331,8 @@ FearowEvosAttacks:
 	db 1, LEER
 	db 1, FURY_ATTACK
 	db 15, PURSUIT
-	db 22, TAKE_DOWN
-	db 26, WING_ATTACK
+	db 22, RAZOR_WIND
+	db 26, TAKE_DOWN
 	db 31, MIRROR_MOVE
 	db 37, DRILL_PECK
 	db 43, AGILITY
