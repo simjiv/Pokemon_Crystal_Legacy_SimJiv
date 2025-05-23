@@ -434,7 +434,8 @@ SandslashEvosAttacks:
 	db 30, CUT
 	db 35, SANDSTORM
 	db 40, EARTHQUAKE
-	db 48, SPIKE_CANNON
+	db 45, SPIKE_CANNON
+  db 50, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 NidoranFEvosAttacks:
@@ -1095,6 +1096,7 @@ TentacoolEvosAttacks:
 	db 20, BUBBLEBEAM
 	db 25, SLUDGE
 	db 30, WRAP
+  db 33, CONFUSE_RAY
 	db 37, BARRIER
 	db 43, SCREECH
 	db 49, HYDRO_PUMP
@@ -1110,6 +1112,7 @@ TentacruelEvosAttacks:
 	db 20, SLUDGE
 	db 25, BUBBLEBEAM
 	db 30, WRAP
+  db 33, CONFUSE_RAY
 	db 37, BARRIER
 	db 42, SLUDGE_BOMB
 	db 47, SCREECH
@@ -1189,13 +1192,15 @@ RapidashEvosAttacks:
 	db 33, TAKE_DOWN
 	db 36, FLAMETHROWER
 	db 39, FIRE_SPIN
-	db 40, FURY_ATTACK
+	db 40, HORN_ATTACK
+  db 42, JUMP_KICK
 	db 45, AGILITY
 	db 51, FIRE_BLAST
+  db 60, MEGAHORN
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
-	db EVOLVE_LEVEL, 37, SLOWBRO
+	db EVOLVE_LEVEL, 32, SLOWBRO
 	db EVOLVE_ITEM, KINGS_ROCK, SLOWKING
 	db 0 ; no more evolutions
 	db 1, CURSE
@@ -1249,11 +1254,14 @@ MagnetonEvosAttacks:
 	db 1, SONICBOOM
 	db 21, THUNDER_WAVE
 	db 25, SPARK
-	db 33, TRI_ATTACK
-	db 37, THUNDERBOLT
-	db 40, LOCK_ON
-	db 43, SCREECH
-	db 51, ZAP_CANNON
+  db 28, SWIFT
+	db 30, TRI_ATTACK
+  db 33, SPIKE_CANNON
+	db 38, THUNDERBOLT
+  db 42, SCREECH
+	db 48, LIGHT_SCREEN
+	db 50, LOCK_ON
+	db 53, ZAP_CANNON
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:
@@ -1276,10 +1284,11 @@ DoduoEvosAttacks:
 	db 1, PECK
 	db 9, PURSUIT
 	db 13, FURY_ATTACK
-	db 21, TRI_ATTACK
-	db 27, RAGE
-	db 38, DRILL_PECK
-	db 44, AGILITY
+	db 21, LOW_KICK
+	db 25, RAGE
+	db 36, DRILL_PECK
+	db 41, AGILITY
+  db 47, JUMP_KICK
 	db 56, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
@@ -1290,11 +1299,13 @@ DodrioEvosAttacks:
 	db 1, PURSUIT
 	db 1, FURY_ATTACK
 	db 9, PURSUIT
-	db 13, FURY_ATTACK
-	db 21, RAGE
-	db 27, TRI_ATTACK
-	db 38, DRILL_PECK
-	db 44, AGILITY
+  db 13, FURY_ATTACK
+	db 21, LOW_KICK
+	db 25, RAGE
+  db 31, TRI_ATTACK
+	db 36, DRILL_PECK
+	db 41, AGILITY
+  db 47, JUMP_KICK
 	db 56, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
