@@ -23,9 +23,9 @@ Moves:
 	move ICE_PUNCH,    EFFECT_FREEZE_HIT,         75, ICE,          100, 15,  10
 	move THUNDERPUNCH, EFFECT_PARALYZE_HIT,       75, ELECTRIC,     100, 15,  10
 	move SCRATCH,      EFFECT_NORMAL_HIT,         40, NORMAL,       100, 35,   0
-	move VICEGRIP,     EFFECT_NORMAL_HIT,         55, NORMAL,       100, 30,   0
+	move VICEGRIP,     EFFECT_FLINCH_HIT         70, BUG,          	100, 15,  10
 	move GUILLOTINE,   EFFECT_OHKO,                0, NORMAL,        30,  5,   0
-	move RAZOR_WIND,   EFFECT_RAZOR_WIND,         80, NORMAL,        95, 15,   0
+	move RAZOR_WIND,   EFFECT_TRAP_TARGET,         35, FLYING,      100, 15,   0
 	move SWORDS_DANCE, EFFECT_ATTACK_UP_2,         0, NORMAL,       100, 30,   0
 	move CUT,          EFFECT_NORMAL_HIT,         55, BUG,          95,  30,   0
 	move GUST,         EFFECT_GUST,               40, FLYING,       100, 35,   0
@@ -140,17 +140,17 @@ Moves:
 	move BONE_CLUB,    EFFECT_FLINCH_HIT,         65, GROUND,       100, 20,  10
 	move FIRE_BLAST,   EFFECT_BURN_HIT,          120, FIRE,          85,  5,  10
 	move WATERFALL,    EFFECT_FLINCH_HIT,         70, WATER,        100, 15,  30
-	move CLAMP,        EFFECT_TRAP_TARGET,        35, WATER,        100, 10,   0
+	move CLAMP,        EFFECT_TRAP_TARGET,        50, WATER,        100, 10,   0
 	move SWIFT,        EFFECT_ALWAYS_HIT,         60, NORMAL,       100, 20,   0
 	move SKULL_BASH,   EFFECT_SKULL_BASH,        100, NORMAL,       100, 15,   0
-	move SPIKE_CANNON, EFFECT_MULTI_HIT,          22, STEEL,        100, 15,   0
+	move SPIKE_CANNON, EFFECT_MULTI_HIT,          30, STEEL,        100, 15,   0
 	move CONSTRICT,    EFFECT_SPEED_DOWN_HIT,     40, NORMAL,       100, 35,  10
 	move AMNESIA,      EFFECT_SP_DEF_UP_2,         0, PSYCHIC_TYPE, 100, 20,   0
 	move KINESIS,      EFFECT_ACCURACY_DOWN,       0, PSYCHIC_TYPE,  80, 15,   0
 	move SOFTBOILED,   EFFECT_HEAL,                0, NORMAL,       100,  5,   0
 	move HI_JUMP_KICK, EFFECT_JUMP_KICK,         120, FIGHTING,      90, 20,   0
 	move GLARE,        EFFECT_PARALYZE,            0, NORMAL,        90, 30,   0
-	move DREAM_EATER,  EFFECT_DREAM_EATER,       100, PSYCHIC_TYPE, 100, 15,   0
+	move DREAM_EATER,  EFFECT_DREAM_EATER,       100, GHOST, 	100, 15,   0
 	move POISON_GAS,   EFFECT_POISON,              0, POISON,        85, 40,   0
 	move BARRAGE,      EFFECT_MULTI_HIT,          20, NORMAL,       100, 20,   0
 	move LEECH_LIFE,   EFFECT_LEECH_HIT,          40, BUG,          100, 25,   0
