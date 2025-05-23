@@ -1269,12 +1269,13 @@ FarfetchDEvosAttacks:
 	db 1, PECK
 	db 7, SAND_ATTACK
 	db 13, LEER
-	db 19, FURY_ATTACK
+	db 15, FURY_ATTACK
+  db 20, FURY_CUTTER
 	db 25, SWORDS_DANCE
 	db 31, AGILITY
 	db 35, SLASH
-	db 40, FALSE_SWIPE
-	db 45, BATON_PASS
+	db 40, BATON_PASS
+  db 45, TAKE_DOWN
 	db 0 ; no more level-up moves
 
 DoduoEvosAttacks:
@@ -1316,12 +1317,13 @@ SeelEvosAttacks:
 	db 1, GROWL
 	db 5, WATER_GUN
 	db 16, AURORA_BEAM
-	db 21, REST
+	db 21, ENCORE
 	db 25, BUBBLEBEAM
+  db 29, REST
 	db 32, TAKE_DOWN
 	db 40, ICE_BEAM
-	db 44, SAFEGUARD
-	db 54, BLIZZARD
+	db 43, SAFEGUARD
+	db 50, BLIZZARD
 	db 0 ; no more level-up moves
 
 DewgongEvosAttacks:
@@ -1330,12 +1332,14 @@ DewgongEvosAttacks:
 	db 1, GROWL
 	db 1, WATER_GUN
 	db 1, AURORA_BEAM
-	db 21, REST
+	db 21, ENCORE
 	db 25, BUBBLEBEAM
+  db 29, REST
 	db 32, TAKE_DOWN
 	db 40, ICE_BEAM
-	db 44, SAFEGUARD
-	db 54, BLIZZARD
+	db 43, SAFEGUARD
+	db 50, BLIZZARD
+  db 60, MEGAHORN
 	db 0 ; no more level-up moves
 
 GrimerEvosAttacks:
@@ -1345,11 +1349,15 @@ GrimerEvosAttacks:
 	db 1, POUND
 	db 5, HARDEN
 	db 10, DISABLE
+  db 14, MUD_SLAP
 	db 16, SLUDGE
+  db 20, LICK
 	db 23, MINIMIZE
-	db 31, SCREECH
+	db 27, SCREECH
+  db 34, ACID_ARMOR
 	db 38, SLUDGE_BOMB
-	db 45, ACID_ARMOR
+	db 45, TOXIC
+  db 50, RECOVER
 	db 0 ; no more level-up moves
 
 MukEvosAttacks:
