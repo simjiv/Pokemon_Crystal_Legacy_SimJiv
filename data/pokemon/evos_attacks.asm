@@ -1379,6 +1379,7 @@ ShellderEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, WITHDRAW
+  db 5, BUBBLE
 	db 9, SUPERSONIC
 	db 17, AURORA_BEAM
 	db 25, PROTECT
@@ -1394,6 +1395,7 @@ CloysterEvosAttacks:
 	db 1, WITHDRAW
 	db 1, SUPERSONIC
 	db 1, AURORA_BEAM
+  db 5, BUBBLE
 	db 25, PROTECT
 	db 33, SPIKES
 	db 35, CLAMP
