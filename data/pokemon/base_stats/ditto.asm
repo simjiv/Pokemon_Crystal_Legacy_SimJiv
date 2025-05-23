@@ -1,12 +1,12 @@
 	db DITTO ; 132
 
-	db  48,  48,  48,  48,  48,  48
+	db  50,  50,  50,  50,  50,  50
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
 	db 35 ; catch rate
 	db 61 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db MIRACLEPOWDER, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
