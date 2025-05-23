@@ -198,10 +198,12 @@ ButterfreeEvosAttacks:
 	db 14, STUN_SPORE
 	db 15, SLEEP_POWDER
 	db 18, SUPERSONIC
+	db 20, SWEET_SCENT
 	db 23, WHIRLWIND
 	db 28, GUST
 	db 34, PSYBEAM
 	db 40, SAFEGUARD
+	db 45, REFLECT
 	db 0 ; no more level-up moves
 
 WeedleEvosAttacks:
@@ -222,14 +224,17 @@ KakunaEvosAttacks:
 
 BeedrillEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, FURY_ATTACK
+	db 1, PIN_MISSILE
 	db 10, PIN_MISSILE
 	db 10, RAGE
 	db 12, FOCUS_ENERGY
 	db 15, TWINEEDLE
+	db 25, FURY_ATTACK
 	db 18, PURSUIT
 	db 30, SWORDS_DANCE
+	db 35, DRILL_PECK
 	db 40, AGILITY
+	db 45, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 PidgeyEvosAttacks:
@@ -311,9 +316,12 @@ SpearowEvosAttacks:
 	db 7, LEER
 	db 10, FURY_ATTACK
 	db 15, PURSUIT
+	db 22, TAKE_DOWN
+	db 26, WING_ATTACK
 	db 31, MIRROR_MOVE
 	db 37, DRILL_PECK
 	db 43, AGILITY
+	db 50, SKY_ATTACK
 	db 0 ; no more level-up moves
 
 FearowEvosAttacks:
@@ -323,9 +331,12 @@ FearowEvosAttacks:
 	db 1, LEER
 	db 1, FURY_ATTACK
 	db 15, PURSUIT
+	db 22, TAKE_DOWN
+	db 26, WING_ATTACK
 	db 31, MIRROR_MOVE
 	db 37, DRILL_PECK
 	db 43, AGILITY
+	db 50, SKY_ATTACK
 	db 0 ; no more level-up moves
 
 EkansEvosAttacks:
@@ -356,6 +367,7 @@ ArbokEvosAttacks:
 	db 30, SCREECH
 	db 36, SLUDGE_BOMB
 	db 43, HAZE
+	db 50, CRUNCH
 	db 0 ; no more level-up moves
 
 PikachuEvosAttacks:
@@ -394,11 +406,13 @@ SandshrewEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, FURY_SWIPES
-	db 6, DEFENSE_CURL
+	db 5, DEFENSE_CURL
+	db 7, POISON_STING
 	db 9, MUD_SLAP
 	db 11, SAND_ATTACK
 	db 15, ROLLOUT
 	db 19, METAL_CLAW
+	db 22, DIG
 	db 25, SLASH
 	db 30, CUT
 	db 35, SANDSTORM
@@ -409,7 +423,8 @@ SandslashEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, FURY_SWIPES
-	db 6, DEFENSE_CURL
+	db 5, DEFENSE_CURL
+	db 7, POISON_STING
 	db 9, MUD_SLAP
 	db 11, SAND_ATTACK
 	db 15, ROLLOUT
@@ -457,6 +472,7 @@ NidoqueenEvosAttacks:
 	db 23, BODY_SLAM
 	db 27, MAGNITUDE
 	db 36, SLUDGE_BOMB
+	db 50, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
@@ -494,6 +510,7 @@ NidokingEvosAttacks:
 	db 23, THRASH
 	db 27, MAGNITUDE
 	db 36, SLUDGE_BOMB
+	db 50, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 ClefairyEvosAttacks:
@@ -634,6 +651,7 @@ OddishEvosAttacks:
 	db 24, ACID
 	db 32, GIGA_DRAIN
 	db 35, MOONLIGHT
+	db 38, SLUDGE_BOMB
 	db 44, PETAL_DANCE
 	db 0 ; no more level-up moves
 
@@ -650,6 +668,7 @@ GloomEvosAttacks:
 	db 24, ACID
 	db 32, GIGA_DRAIN
 	db 35, MOONLIGHT
+	db 38, SLUDGE_BOMB
 	db 44, PETAL_DANCE
 	db 0 ; no more level-up moves
 
@@ -664,6 +683,7 @@ VileplumeEvosAttacks:
 	db 24, ACID
 	db 32, GIGA_DRAIN
 	db 35, MOONLIGHT
+	db 38, SLUDGE_BOMB
 	db 44, PETAL_DANCE
 	db 0 ; no more level-up moves
 
@@ -673,6 +693,7 @@ ParasEvosAttacks:
 	db 1, SCRATCH
 	db 5, ABSORB
 	db 7, STUN_SPORE
+	db 10, LEECH_SEED
 	db 13, POISONPOWDER
 	db 16, MEGA_DRAIN
 	db 19, LEECH_LIFE
@@ -680,6 +701,7 @@ ParasEvosAttacks:
 	db 31, SLASH
 	db 36, GROWTH
 	db 40, GIGA_DRAIN
+	db 45, CUT
 	db 0 ; no more level-up moves
 
 ParasectEvosAttacks:
@@ -687,6 +709,7 @@ ParasectEvosAttacks:
 	db 1, SCRATCH
 	db 1, ABSORB
 	db 1, STUN_SPORE
+	db 10, LEECH_SEED
 	db 13, POISONPOWDER
 	db 16, MEGA_DRAIN
 	db 19, LEECH_LIFE
@@ -694,10 +717,11 @@ ParasectEvosAttacks:
 	db 31, SLASH
 	db 36, GROWTH
 	db 40, GIGA_DRAIN
+	db 45, VICEGRIP
 	db 0 ; no more level-up moves
 
 VenonatEvosAttacks:
-	db EVOLVE_LEVEL, 31, VENOMOTH
+	db EVOLVE_LEVEL, 28, VENOMOTH
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DISABLE
@@ -706,8 +730,8 @@ VenonatEvosAttacks:
 	db 13, LEECH_LIFE
 	db 17, CONFUSION
 	db 20, POISONPOWDER
-	db 28, STUN_SPORE
-	db 34, PSYBEAM
+	db 26, STUN_SPORE
+	db 31, PSYBEAM
 	db 38, SLEEP_POWDER
 	db 43, SLUDGE_BOMB
 	db 50, PSYCHIC_M
@@ -722,9 +746,9 @@ VenomothEvosAttacks:
 	db 13, LEECH_LIFE
 	db 17, CONFUSION
 	db 20, POISONPOWDER
-	db 28, STUN_SPORE
-	db 31, GUST
-	db 34, PSYBEAM
+	db 26, STUN_SPORE
+	db 28, GUST
+	db 31, PSYBEAM
 	db 38, SLEEP_POWDER
 	db 43, SLUDGE_BOMB
 	db 50, PSYCHIC_M
@@ -759,34 +783,39 @@ DugtrioEvosAttacks:
 MeowthEvosAttacks:
 	db EVOLVE_LEVEL, 28, PERSIAN
 	db 0 ; no more evolutions
-	db 1, SCRATCH
 	db 1, GROWL
+	db 1, SCRATCH
 	db 1, BITE
+	db 10, CHARM
+	db 16, THIEF
 	db 20, PAY_DAY
-	db 28, FAINT_ATTACK
-	db 33, SLASH
+	db 24, FURY_SWIPES
+	db 28, SLASH
+	db 33, FAINT_ATTACK
 	db 38, SCREECH
-	db 41, FURY_SWIPES
+	db 41, SWAGGER
 	db 46, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 PersianEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
 	db 1, GROWL
+	db 1, SCRATCH
 	db 1, BITE
-	db 11, BITE
+	db 10, CHARM
+	db 16, THIEF
 	db 20, PAY_DAY
-	db 28, FAINT_ATTACK
-	db 33, SLASH
+	db 24, FURY_SWIPES
+	db 28, SLASH
+	db 33, FAINT_ATTACK
 	db 38, SCREECH
-	db 41, FURY_SWIPES
+	db 41, SWAGGER
 	db 46, DOUBLE_EDGE
 	db 50, HYPER_BEAM
 	db 0 ; no more level-up moves
 
 PsyduckEvosAttacks:
-	db EVOLVE_LEVEL, 33, GOLDUCK
+	db EVOLVE_LEVEL, 30, GOLDUCK
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 5, TAIL_WHIP
@@ -794,6 +823,7 @@ PsyduckEvosAttacks:
 	db 10, DISABLE
 	db 15, CONFUSION
 	db 17, BUBBLEBEAM
+	db 20, AMNESIA
 	db 23, SCREECH
 	db 31, PSYCH_UP
 	db 37, FURY_SWIPES
@@ -809,6 +839,7 @@ GolduckEvosAttacks:
 	db 1, DISABLE
 	db 15, CONFUSION
 	db 17, BUBBLEBEAM
+	db 20, AMNESIA
 	db 23, SCREECH
 	db 31, PSYCH_UP
 	db 37, FURY_SWIPES
