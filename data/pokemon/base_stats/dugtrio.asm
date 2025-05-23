@@ -1,12 +1,12 @@
 	db DUGTRIO ; 051
 
-	db  35,  90,  50, 120,  50,  70
+	db  35,  95,  50, 120,  50,  70
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, GROUND ; type
 	db 50 ; catch rate
 	db 153 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db NO_ITEM, SOFT_SAND ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
