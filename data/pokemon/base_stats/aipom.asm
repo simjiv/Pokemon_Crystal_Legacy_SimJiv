@@ -1,6 +1,6 @@
 	db AIPOM ; 190
 
-	db  70, 90,  65, 90,  40,  65
+	db  70, 80,  65, 95,  40,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
