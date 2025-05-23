@@ -156,7 +156,7 @@ Moves:
 	move LEECH_LIFE,   EFFECT_LEECH_HIT,          40, BUG,          100, 25,   0
 	move LOVELY_KISS,  EFFECT_SLEEP,               0, NORMAL,        75, 10,   0
 	move SKY_ATTACK,   EFFECT_NORMAL_HIT,        120, FLYING,        85, 10,   0
-	move TRANSFORM,    EFFECT_TRANSFORM,           0, NORMAL,       100, 10,   0
+	move TRANSFORM,    EFFECT_PRIORITY_HIT_TRANSFORM,           0, NORMAL,       100, 10,   0
 	move BUBBLE,       EFFECT_SPEED_DOWN_HIT,     20, WATER,        100, 30,  10
 	move DIZZY_PUNCH,  EFFECT_CONFUSE_HIT,        70, NORMAL,       100, 20,  20
 	move SPORE,        EFFECT_SLEEP,               0, GRASS,        100, 15,   0
