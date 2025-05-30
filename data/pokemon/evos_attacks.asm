@@ -1741,6 +1741,7 @@ RhydonEvosAttacks:
 	db 44, ROCK_SLIDE
 	db 51, TAKE_DOWN
 	db 58, HORN_DRILL
+	db 66, MEGAHORN
 	db 0 ; no more level-up moves
 
 ChanseyEvosAttacks:
@@ -1765,12 +1766,15 @@ TangelaEvosAttacks:
 	db 4, SLEEP_POWDER
 	db 10, ABSORB
 	db 13, POISONPOWDER
+	db 16, BIND
 	db 19, VINE_WHIP
 	db 22, MEGA_DRAIN
-	db 25, BIND
+	db 25, CONFUSION
+	db 29, SLAM
 	db 34, STUN_SPORE
 	db 37, GIGA_DRAIN
 	db 46, GROWTH
+	db 50, AMNESIA
 	db 0 ; no more level-up moves
 
 KangaskhanEvosAttacks:
@@ -1825,7 +1829,8 @@ GoldeenEvosAttacks:
 	db 20, FLAIL
 	db 24, FURY_ATTACK
 	db 30, DRILL_PECK
-	db 35, MEGAHORN
+	db 33, ATTRACT
+	db 37, MEGAHORN
 	db 43, HORN_DRILL
 	db 48, AGILITY
 	db 53, HYDRO_PUMP
@@ -1842,7 +1847,8 @@ SeakingEvosAttacks:
 	db 20, FLAIL
 	db 24, FURY_ATTACK
 	db 30, DRILL_PECK
-	db 35, MEGAHORN
+	db 33, ATTRACT
+	db 37, MEGAHORN
 	db 43, HORN_DRILL
 	db 48, AGILITY
 	db 53, HYDRO_PUMP
@@ -1859,7 +1865,8 @@ StaryuEvosAttacks:
 	db 25, SWIFT
 	db 27, LIGHT_SCREEN
 	db 31, BUBBLEBEAM
-	db 37, MINIMIZE
+	db 34, MINIMIZE
+	db 37, CONFUSE_RAY
 	db 40, PSYCHIC_M
 	db 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -1883,16 +1890,18 @@ StarmieEvosAttacks:
 MrMimeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BARRIER
-	db 6, CONFUSION
+	db 5, CONFUSION
 	db 11, SUBSTITUTE
 	db 16, MEDITATE
+	db 18, MIMIC
 	db 21, DOUBLESLAP
 	db 26, LIGHT_SCREEN
 	db 26, REFLECT
 	db 31, ENCORE
 	db 36, PSYBEAM
 	db 41, BATON_PASS
-	db 46, SAFEGUARD
+	db 46, PSYCHIC_M
+	db 50, SAFEGUARD
 	db 0 ; no more level-up moves
 
 ScytherEvosAttacks:
@@ -1961,14 +1970,15 @@ MagmarEvosAttacks:
 
 PinsirEvosAttacks:
     db 0 ; no more evolutions
-    db 1, VICEGRIP
+    db 1, HORN_ATTACK
     db 7, FOCUS_ENERGY
+		db 10, HARDEN
     db 13, BIND
     db 19, SEISMIC_TOSS
     db 25, TWINEEDLE
-    db 27, HARDEN
+    db 27, SUBMISSION
     db 31, GUILLOTINE
-    db 37, SUBMISSION
+    db 37, VICEGRIP
     db 43, SWORDS_DANCE
     db 48, MEGAHORN
     db 0 ; no more level-up moves
