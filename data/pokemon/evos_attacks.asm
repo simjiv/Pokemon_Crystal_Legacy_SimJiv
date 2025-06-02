@@ -1096,7 +1096,7 @@ TentacoolEvosAttacks:
 	db 20, BUBBLEBEAM
 	db 25, SLUDGE
 	db 30, WRAP
-  db 33, CONFUSE_RAY
+  	db 33, CONFUSE_RAY
 	db 37, BARRIER
 	db 43, SCREECH
 	db 49, HYDRO_PUMP
@@ -1109,10 +1109,10 @@ TentacruelEvosAttacks:
 	db 1, BUBBLE
 	db 1, CONSTRICT
 	db 16, ACID
-	db 20, SLUDGE
-	db 25, BUBBLEBEAM
+	db 20, BUBBLEBEAM
+	db 25, SLUDGE
 	db 30, WRAP
-  db 33, CONFUSE_RAY
+ 	db 33, CONFUSE_RAY
 	db 37, BARRIER
 	db 42, SLUDGE_BOMB
 	db 47, SCREECH
@@ -1194,10 +1194,10 @@ RapidashEvosAttacks:
 	db 36, TAKE_DOWN
 	db 39, FIRE_SPIN
 	db 40, HORN_ATTACK
-  db 42, JUMP_KICK
+  	db 42, JUMP_KICK
 	db 45, AGILITY
 	db 51, FIRE_BLAST
-  db 60, MEGAHORN
+  	db 60, MEGAHORN
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
@@ -1243,7 +1243,7 @@ MagnemiteEvosAttacks:
 	db 28, SWIFT
 	db 33, SPIKE_CANNON
 	db 37, THUNDERBOLT
-	db 42, SCREECH
+	db 43, SCREECH
 	db 48, LIGHT_SCREEN
 	db 50, LOCK_ON
 	db 51, ZAP_CANNON
@@ -1257,14 +1257,14 @@ MagnetonEvosAttacks:
 	db 1, SONICBOOM
 	db 21, THUNDER_WAVE
 	db 25, SPARK
-  db 28, SWIFT
+  	db 28, SWIFT
 	db 30, TRI_ATTACK
-  db 33, SPIKE_CANNON
+  	db 33, SPIKE_CANNON
 	db 38, THUNDERBOLT
-  db 42, SCREECH
+  	db 43, SCREECH
 	db 48, LIGHT_SCREEN
 	db 50, LOCK_ON
-	db 53, ZAP_CANNON
+	db 51, ZAP_CANNON
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:
@@ -1273,12 +1273,12 @@ FarfetchDEvosAttacks:
 	db 7, SAND_ATTACK
 	db 13, LEER
 	db 15, FURY_ATTACK
-  db 20, FURY_CUTTER
+  	db 20, FURY_CUTTER
 	db 25, SWORDS_DANCE
 	db 31, AGILITY
 	db 35, SLASH
 	db 40, BATON_PASS
-  db 45, TAKE_DOWN
+  	db 45, TAKE_DOWN
 	db 0 ; no more level-up moves
 
 DoduoEvosAttacks:
@@ -1292,7 +1292,7 @@ DoduoEvosAttacks:
 	db 25, RAGE
 	db 36, DRILL_PECK
 	db 41, AGILITY
-  db 47, JUMP_KICK
+  	db 47, JUMP_KICK
 	db 56, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
@@ -1303,13 +1303,13 @@ DodrioEvosAttacks:
 	db 1, PURSUIT
 	db 1, FURY_ATTACK
 	db 9, PURSUIT
-  db 13, FURY_ATTACK
+  	db 13, FURY_ATTACK
 	db 21, LOW_KICK
 	db 25, RAGE
-  db 31, TRI_ATTACK
+  	db 31, TRI_ATTACK
 	db 36, DRILL_PECK
 	db 41, AGILITY
-  db 47, JUMP_KICK
+  	db 47, JUMP_KICK
 	db 56, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
@@ -1322,7 +1322,7 @@ SeelEvosAttacks:
 	db 16, AURORA_BEAM
 	db 21, ENCORE
 	db 25, BUBBLEBEAM
-  db 29, REST
+  	db 29, REST
 	db 32, TAKE_DOWN
 	db 40, ICE_BEAM
 	db 43, SAFEGUARD
@@ -1337,12 +1337,12 @@ DewgongEvosAttacks:
 	db 1, AURORA_BEAM
 	db 21, ENCORE
 	db 25, BUBBLEBEAM
-  db 29, REST
+  	db 29, REST
 	db 32, TAKE_DOWN
 	db 40, ICE_BEAM
 	db 43, SAFEGUARD
 	db 50, BLIZZARD
-  db 60, MEGAHORN
+  	db 60, MEGAHORN
 	db 0 ; no more level-up moves
 
 GrimerEvosAttacks:
@@ -1352,15 +1352,15 @@ GrimerEvosAttacks:
 	db 1, POUND
 	db 5, HARDEN
 	db 10, DISABLE
-  db 14, MUD_SLAP
+  	db 14, MUD_SLAP
 	db 16, SLUDGE
-  db 20, LICK
+  	db 20, LICK
 	db 23, MINIMIZE
 	db 27, SCREECH
-  db 34, ACID_ARMOR
+  	db 34, ACID_ARMOR
 	db 38, SLUDGE_BOMB
 	db 45, TOXIC
-  db 50, RECOVER
+  	db 50, RECOVER
 	db 0 ; no more level-up moves
 
 MukEvosAttacks:
@@ -1370,15 +1370,15 @@ MukEvosAttacks:
 	db 1, POUND
 	db 5, HARDEN
 	db 10, DISABLE
-  db 14, MUD_SLAP
+  	db 14, MUD_SLAP
 	db 16, SLUDGE
-  db 20, LICK
+  	db 20, LICK
 	db 23, MINIMIZE
 	db 27, SCREECH
-  db 34, ACID_ARMOR
+  	db 34, ACID_ARMOR
 	db 38, SLUDGE_BOMB
 	db 45, TOXIC
-  db 50, RECOVER
+  	db 50, RECOVER
 	db 0 ; no more level-up moves
 
 ShellderEvosAttacks:
@@ -1386,7 +1386,7 @@ ShellderEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, WITHDRAW
-  db 5, BUBBLE
+  	db 5, BUBBLE
 	db 9, SUPERSONIC
 	db 11, LEER
 	db 14, LICK
@@ -1401,14 +1401,14 @@ CloysterEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, WITHDRAW
-  db 5, BUBBLE
+  	db 5, BUBBLE
 	db 9, SUPERSONIC
 	db 11, LEER
-	db 14, LICK
+	db 14, BARRIER
 	db 17, AURORA_BEAM
 	db 23, CLAMP
 	db 27, PROTECT
-	db 33, SPIKES
+	db 31, SPIKES
 	db 37, ICE_BEAM
 	db 40, SPIKE_CANNON
 	db 50, HYDRO_PUMP
@@ -1513,12 +1513,12 @@ KrabbyEvosAttacks:
 	db 5, LEER
 	db 10, HARDEN
 	db 15, STOMP
-	db 20, METAL_CLAW
-	db 23, BUBBLEBEAM
-	db 27, PROTECT
+	db 19, BUBBLEBEAM
+	db 23, PROTECT
+	db 27, METAL_CLAW
 	db 32, VICEGRIP
 	db 37, GUILLOTINE
-	db 45, CRABHAMMER
+	db 44, CRABHAMMER
 	db 0 ; no more level-up moves
 
 KinglerEvosAttacks:
@@ -1527,12 +1527,12 @@ KinglerEvosAttacks:
 	db 5, LEER
 	db 10, HARDEN
 	db 15, STOMP
-	db 20, METAL_CLAW
-	db 23, BUBBLEBEAM
-	db 27, PROTECT
+	db 19, BUBBLEBEAM
+	db 23, PROTECT
+	db 27, METAL_CLAW
 	db 32, VICEGRIP
 	db 37, GUILLOTINE
-	db 45, CRABHAMMER
+	db 44, CRABHAMMER
 	db 0 ; no more level-up moves
 
 VoltorbEvosAttacks:
@@ -1546,8 +1546,8 @@ VoltorbEvosAttacks:
 	db 27, ROLLOUT
 	db 31, LIGHT_SCREEN
 	db 37, THUNDERBOLT
-	db 42, THUNDER
-	db 45, EXPLOSION
+	db 42, EXPLOSION
+	db 45, THUNDER
 	db 50, MIRROR_COAT
 	db 0 ; no more level-up moves
 
@@ -1561,8 +1561,8 @@ ElectrodeEvosAttacks:
 	db 27, ROLLOUT
 	db 31, LIGHT_SCREEN
 	db 37, THUNDERBOLT
-	db 42, THUNDER
-	db 45, EXPLOSION
+	db 42, EXPLOSION
+	db 45, THUNDER
 	db 50, MIRROR_COAT
 	db 0 ; no more level-up moves
 
@@ -1612,28 +1612,30 @@ CuboneEvosAttacks:
 	db 8, BONE_CLUB
 	db 13, HEADBUTT
 	db 15, FALSE_SWIPE
-	db 17, LEER
-	db 21, FOCUS_ENERGY
+	db 17, FOCUS_ENERGY
+	db 21, RAGE
 	db 25, BONEMERANG
-	db 32, RAGE
+	db 32, ROCK_SMASH
 	db 37, THRASH
 	db 41, BONE_RUSH
+	db 50, SKULL_BASH
 	db 0 ; no more level-up moves
 
 MarowakEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, TAIL_WHIP
-	db 1, BONE_CLUB
+	db 5, TAIL_WHIP
+	db 8, BONE_CLUB
 	db 13, HEADBUTT
 	db 15, FALSE_SWIPE
-	db 17, LEER
-	db 21, FOCUS_ENERGY
+	db 17, FOCUS_ENERGY
+	db 21, RAGE
 	db 25, BONEMERANG
-	db 32, RAGE
+	db 32, ROCK_SMASH
 	db 37, THRASH
 	db 41, BONE_RUSH
+	db 50, SKULL_BASH
 	db 0 ; no more level-up moves
 
 HitmonleeEvosAttacks:
@@ -1948,7 +1950,8 @@ ElectabuzzEvosAttacks:
 	db 21, LIGHT_SCREEN
 	db 25, SWIFT
 	db 30, THUNDERPUNCH
-	db 36, SCREECH
+	db 33, SCREECH
+	db 38, SUBMISSION
 	db 42, THUNDERBOLT
 	db 52, THUNDER
 	db 0 ; no more level-up moves
@@ -1972,7 +1975,7 @@ PinsirEvosAttacks:
     db 0 ; no more evolutions
     db 1, HORN_ATTACK
     db 7, FOCUS_ENERGY
-		db 10, HARDEN
+    db 10, HARDEN
     db 13, BIND
     db 19, SEISMIC_TOSS
     db 25, TWINEEDLE
