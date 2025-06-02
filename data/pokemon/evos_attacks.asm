@@ -1994,11 +1994,11 @@ TaurosEvosAttacks:
 	db 13, HORN_ATTACK
 	db 19, SCARY_FACE
 	db 23, HEADBUTT
-	db 26, PURSUIT
+	db 28, PURSUIT
 	db 34, REST
 	db 43, THRASH
-	db 48, TAKE_DOWN
-	db 58, DOUBLE_EDGE
+	db 48, SKULL_BASH
+	db 55, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 MagikarpEvosAttacks:
@@ -2049,6 +2049,8 @@ EeveeEvosAttacks:
 	db EVOLVE_ITEM, THUNDERSTONE, JOLTEON
 	db EVOLVE_ITEM, WATER_STONE, VAPOREON
 	db EVOLVE_ITEM, FIRE_STONE, FLAREON
+	db EVOLVE_ITEM, SUN_STONE, ESPEON
+	db EVOLVE_ITEM, MOON_STONE, UMBREON
 	db EVOLVE_HAPPINESS, TR_MORNDAY, ESPEON
 	db EVOLVE_HAPPINESS, TR_NITE, UMBREON
 	db 0 ; no more evolutions
@@ -2131,19 +2133,22 @@ PorygonEvosAttacks:
 	db 0 ; no more level-up moves
 
 OmanyteEvosAttacks:
-	db EVOLVE_LEVEL, 40, OMASTAR
+	db EVOLVE_LEVEL, 35, OMASTAR
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
 	db 1, WITHDRAW
 	db 7, WATER_GUN
 	db 11, BITE
-	db 14, ROCK_THROW
+	db 14, ABSORB
 	db 18, BUBBLEBEAM
 	db 23, LEER
-	db 27, SPIKE_CANNON
+	db 27, MEGA_DRAIN
 	db 30, ANCIENTPOWER
+	db 35, SPIKE_CANNON
 	db 37, PROTECT
-	db 46, HYDRO_PUMP
+	db 40, HYDRO_PUMP
+	db 43, SPIKES
+	db 46, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 OmastarEvosAttacks:
@@ -2151,32 +2156,37 @@ OmastarEvosAttacks:
 	db 1, CONSTRICT
 	db 1, WITHDRAW
 	db 1, WATER_GUN
-	db 1, BITE
-	db 14, ROCK_THROW
+	db 1, ROCK_THROW
+	db 11, BITE
+	db 14, ABSORB
 	db 18, BUBBLEBEAM
 	db 23, LEER
-	db 27, SPIKE_CANNON
+	db 27, MEGA_DRAIN
 	db 30, ANCIENTPOWER
+	db 35, SPIKE_CANNON
 	db 37, PROTECT
-	db 46, HYDRO_PUMP
+	db 40, HYDRO_PUMP
+	db 43, SPIKES
+	db 46, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
 KabutoEvosAttacks:
-	db EVOLVE_LEVEL, 40, KABUTOPS
+	db EVOLVE_LEVEL, 35, KABUTOPS
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, HARDEN
 	db 1, LEER
 	db 7, ROCK_THROW
 	db 14, WATER_GUN
-	db 19, ABSORB
+	db 19, LEECH_LIFE
 	db 25, LEER
 	db 28, SAND_ATTACK
 	db 30, ANCIENTPOWER
-	db 35, MEGA_DRAIN
+	db 35, SLASH
 	db 37, ENDURE
 	db 43, SWORDS_DANCE
 	db 46, ROCK_SLIDE
+	db 50, VICEGRIP
 	db 0 ; no more level-up moves
 
 KabutopsEvosAttacks:
@@ -2185,16 +2195,17 @@ KabutopsEvosAttacks:
 	db 1, HARDEN
 	db 1, ABSORB
 	db 7, ROCK_THROW
+	db 7, ROCK_THROW
 	db 14, WATER_GUN
-	db 19, ABSORB
+	db 19, LEECH_LIFE
 	db 25, LEER
 	db 28, SAND_ATTACK
 	db 30, ANCIENTPOWER
-	db 35, MEGA_DRAIN
+	db 35, SLASH
 	db 37, ENDURE
-	db 40, SLASH
 	db 43, SWORDS_DANCE
 	db 46, ROCK_SLIDE
+	db 50, TWINNEEDLE
 	db 0 ; no more level-up moves
 
 AerodactylEvosAttacks:
