@@ -1116,3 +1116,7 @@ BattleText_NoTimeLeftToday: ; unreferenced
 	text "There is no time"
 	line "left today!"
 	done
+
+ConfusedText:
+	text "It became confused!"
+	done
