@@ -2075,3 +2075,26 @@ DefenseCurl:
 	statupmessage
 	statupfailtext
 	endmove
+
+BattleEffect_WHIRLPOOL_CONFUSE:
+	; Apply trapping effect
+	call BattleEffect_TRAP
+
+	; Check if the confusion effect should be applied
+	ld a, [wEffectChance]
+	call CompareMoveEffectChance
+	ret c ; Exit if the effect doesn't trigger
+
+	; Check if the target is already confused
+	ld a, [wEnemyMonStatus]
+	and 1 << CONFUSED
+	ret nz ; Exit if already confused
+
+	; Apply confusion
+	call AnimateMove
+	ld hl, ConfusedText
+	call StdBattleTextbox
+	ld a, 1 << CONFUSED
+	ld [wEnemyMonStatus], a
+	ret
+
