@@ -23,7 +23,7 @@ Moves:
 	move ICE_PUNCH,    EFFECT_FREEZE_HIT,         75, ICE,          100, 15,  10
 	move THUNDERPUNCH, EFFECT_PARALYZE_HIT,       75, ELECTRIC,     100, 15,  10
 	move SCRATCH,      EFFECT_NORMAL_HIT,         40, NORMAL,       100, 35,   0
-	move VICEGRIP,     EFFECT_FLINCH_HIT         70, BUG,          	100, 15,  10
+	move VICEGRIP,     EFFECT_DEFENSE_DOWN_HIT    60, BUG,          100, 15,  20
 	move GUILLOTINE,   EFFECT_OHKO,                0, NORMAL,        30,  5,   0
 	move RAZOR_WIND,   EFFECT_TRAP_TARGET,         35, FLYING,      100, 15,   0
 	move SWORDS_DANCE, EFFECT_ATTACK_UP_2,         0, NORMAL,       100, 30,   0
@@ -156,7 +156,7 @@ Moves:
 	move LEECH_LIFE,   EFFECT_LEECH_HIT,          40, BUG,          100, 25,   0
 	move LOVELY_KISS,  EFFECT_SLEEP,               0, NORMAL,        75, 10,   0
 	move SKY_ATTACK,   EFFECT_NORMAL_HIT,        120, FLYING,        85, 10,   0
-	move TRANSFORM,    EFFECT_PRIORITY_HIT_TRANSFORM,           0, NORMAL,       100, 10,   0
+	move TRANSFORM,    EFFECT_PRIORITY_HIT_TRANSFORM, 0, NORMAL,       100, 10,   0
 	move BUBBLE,       EFFECT_SPEED_DOWN_HIT,     20, WATER,        100, 30,  10
 	move DIZZY_PUNCH,  EFFECT_CONFUSE_HIT,        70, NORMAL,       100, 20,  20
 	move SPORE,        EFFECT_SLEEP,               0, GRASS,        100, 15,   0
@@ -185,7 +185,7 @@ Moves:
 	move MIND_READER,  EFFECT_LOCK_ON,             0, NORMAL,       100,  5,   0
 	move NIGHTMARE,    EFFECT_NIGHTMARE,           0, GHOST,        100, 15,   0
 	move FLAME_WHEEL,  EFFECT_FLAME_WHEEL,        65, FIRE,         100, 25,  10
-	move SNORE,        EFFECT_SNORE,              40, NORMAL,       100, 15,  30
+	move SNORE,        EFFECT_SNORE,              50, NORMAL,       100, 15,  30
 	move CURSE,        EFFECT_CURSE,               0, CURSE_TYPE,   100, 10,   0
 	move FLAIL,        EFFECT_REVERSAL,            1, NORMAL,       100, 15,   0
 	move CONVERSION2,  EFFECT_CONVERSION2,         0, NORMAL,       100, 30,   0
