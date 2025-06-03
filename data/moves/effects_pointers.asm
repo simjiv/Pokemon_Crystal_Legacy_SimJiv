@@ -158,4 +158,5 @@ MoveEffectsPointers:
 	dw BeatUp
 	dw Fly
 	dw DefenseCurl
+	dw BattleEffect_WHIRLPOOL_CONFUSE ; EFFECT_WHIRLPOOL_CONFUSE
 	assert_table_length NUM_MOVE_EFECTS
