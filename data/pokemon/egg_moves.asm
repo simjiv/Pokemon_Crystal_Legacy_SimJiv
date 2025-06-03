@@ -694,6 +694,8 @@ TeddiursaEggMoves:
 
 SlugmaEggMoves:
 	db ACID_ARMOR
+	db CURSE
+	db SMOKESCREEN
 	db -1 ; end
 
 SwinubEggMoves:
@@ -710,6 +712,8 @@ CorsolaEggMoves:
 	db SCREECH
 	db MIST
 	db AMNESIA
+	db CONFUSE_RAY
+	db BARRIER
 	db -1 ; end
 
 RemoraidEggMoves:
@@ -765,6 +769,10 @@ StantlerEggMoves:
 	db DISABLE
 	db LIGHT_SCREEN
 	db BITE
+	db DOUBLE_KICK
+	db MEGAHORN
+	db SWAGGER
+	db THRASH
 	db -1 ; end
 
 TyrogueEggMoves:
