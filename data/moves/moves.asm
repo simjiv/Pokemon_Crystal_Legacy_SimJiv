@@ -262,6 +262,6 @@ Moves:
 	move SHADOW_BALL,  EFFECT_SP_DEF_DOWN_HIT,    80, GHOST,        100, 15,  20
 	move FUTURE_SIGHT, EFFECT_FUTURE_SIGHT,      120, PSYCHIC_TYPE,  90, 15,   0
 	move ROCK_SMASH,   EFFECT_DEFENSE_DOWN_HIT,   60, FIGHTING,     100, 15,  20
-	move WHIRLPOOL,    EFFECT_TRAP_TARGET,        15, WATER,         70, 15,   0
+	move WHIRLPOOL,    EFFECT_WHIRLPOOL_CONFUSE,  15, WATER,         70, 15,   10
 	move BEAT_UP,      EFFECT_BEAT_UP,            20, DARK,         100, 10,   0
 	assert_table_length NUM_ATTACKS
