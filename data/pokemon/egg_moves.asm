@@ -363,6 +363,9 @@ KangaskhanEggMoves:
 	db FOCUS_ENERGY
 	db SAFEGUARD
 	db DISABLE
+	db SUBSTITUTE
+	db DOUBLE_EDGE
+	db COUNTER
 	db -1 ; end
 
 HorseaEggMoves:
