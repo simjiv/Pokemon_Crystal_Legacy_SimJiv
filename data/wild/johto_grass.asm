@@ -1437,6 +1437,7 @@ JohtoGrassWildMons:
 	db 4, BELLSPROUT
 	db 5, PIDGEY
 	db 5, GROWLITHE
+	db 5, VULPIX
 	db 5, RATTATA
 	db 6, PIDGEY
 	db 6, PIDGEY
@@ -1452,7 +1453,7 @@ JohtoGrassWildMons:
 	db 4, RATTATA
 	db 4, GASTLY
 	db 5, HOOTHOOT
-	db 5, HOUNDOUR
+	db 5, VULPIX
 	db 5, RATTATA
 	db 5, GASTLY
 	db 5, GASTLY
@@ -1479,11 +1480,13 @@ JohtoGrassWildMons:
 	; nite
 	db 18, STANTLER
 	db 16, SPINARAK
+	db 17, HOUNDOOR
 	db 15, HOOTHOOT
 	db 18, STANTLER
 	db 19, NOCTOWL
 	db 18, ARIADOS
 	db 18, ARIADOS
+	db 18, HOUNDOOR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_38
