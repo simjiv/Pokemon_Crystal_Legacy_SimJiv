@@ -153,6 +153,7 @@ JohtoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
 	db 15, TENTACOOL
+	db 15, SEEL
 	db 20, TENTACRUEL
 	end_water_wildmons
 
