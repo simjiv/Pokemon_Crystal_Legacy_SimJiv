@@ -1631,7 +1631,7 @@ PokemaniacGroup:
 
 	; POKEMANIAC (11)
 	db "ISSAC@", TRAINERTYPE_MOVES
-	db 14, LICKITUNG,  LICK, SUPERSONIC, DEFENSE_CURL, NO_MOVE
+	db 16, EEVEE,  DOUBLE_KICK, SAND_ATTACK, TAIL_WHIP, TACKLE
 	db -1 ; end
 
 	; POKEMANIAC (12)
@@ -2543,7 +2543,7 @@ SuperNerdGroup:
 	; SUPER_NERD (2)
 	db "ERIC@", TRAINERTYPE_NORMAL
 	db 15, GRIMER
-	db 15, CUBONE
+	db 15, LICKITUNG
 	db -1 ; end
 
 	; SUPER_NERD (3)
@@ -3377,7 +3377,7 @@ CamperGroup:
 
 	; CAMPER (3)
 	db "IVAN@", TRAINERTYPE_NORMAL
-	db 16, EEVEE
+	db 16, CUBONE
 	db 16, DIGLETT
 	db -1 ; end
 
