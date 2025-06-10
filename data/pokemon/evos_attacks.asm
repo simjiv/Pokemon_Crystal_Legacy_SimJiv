@@ -619,6 +619,7 @@ ZubatEvosAttacks:
 	db 19, CONFUSE_RAY
 	db 23, WING_ATTACK
 	db 27, SLUDGE
+	db 31, SCREECH
 	db 36, SLUDGE_BOMB
 	db 42, MEAN_LOOK
 	db 48, HAZE
@@ -627,7 +628,6 @@ ZubatEvosAttacks:
 GolbatEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, CROBAT
 	db 0 ; no more evolutions
-	db 1, SCREECH
 	db 1, LEECH_LIFE
 	db 1, SUPERSONIC
 	db 1, GUST
@@ -635,6 +635,7 @@ GolbatEvosAttacks:
 	db 19, CONFUSE_RAY
 	db 22, WING_ATTACK
 	db 27, SLUDGE
+	db 31, SCREECH
 	db 36, SLUDGE_BOMB
 	db 42, MEAN_LOOK
 	db 48, HAZE
@@ -761,6 +762,7 @@ DiglettEvosAttacks:
 	db 1, SCRATCH
 	db 5, GROWL
 	db 9, MAGNITUDE
+	db 13, FURY_SWIPES
 	db 17, DIG
 	db 25, SAND_ATTACK
 	db 33, SLASH
@@ -770,12 +772,13 @@ DiglettEvosAttacks:
 
 DugtrioEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TRI_ATTACK
 	db 1, SCRATCH
 	db 1, GROWL
 	db 1, MAGNITUDE
+	db 13, FURY_SWIPES
 	db 17, DIG
 	db 25, SAND_ATTACK
+	db 26, TRI_ATTACK
 	db 33, SLASH
 	db 41, EARTHQUAKE
 	db 49, FISSURE
@@ -1801,12 +1804,14 @@ KangaskhanEvosAttacks:
 HorseaEvosAttacks:
 	db EVOLVE_LEVEL, 32, SEADRA
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 1, BUBBLE
 	db 8, SMOKESCREEN
 	db 13, LEER
 	db 18, WATER_GUN
 	db 22, BUBBLEBEAM
 	db 29, TWISTER
+	db 36, DRAGON_RAGE
 	db 40, AGILITY
 	db 51, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -1814,12 +1819,14 @@ HorseaEvosAttacks:
 SeadraEvosAttacks:
 	db EVOLVE_ITEM, DRAGON_SCALE, KINGDRA
 	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 1, BUBBLE
 	db 1, SMOKESCREEN
 	db 1, LEER
-	db 1, WATER_GUN
+	db 18, WATER_GUN
 	db 22, BUBBLEBEAM
 	db 29, TWISTER
+	db 36, DRAGON_RAGE
 	db 40, AGILITY
 	db 51, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2792,8 +2799,10 @@ MareepEvosAttacks:
 	db 1, GROWL
 	db 7, THUNDERSHOCK
 	db 18, THUNDER_WAVE
+	db 22, HEADBUTT
 	db 27, COTTON_SPORE
-	db 39, LIGHT_SCREEN
+	db 37, LIGHT_SCREEN
+	db 42, BODY_SLAM
 	db 47, THUNDERBOLT
 	db 55, THUNDER
 	db 0 ; no more level-up moves
@@ -2805,8 +2814,10 @@ FlaaffyEvosAttacks:
 	db 1, GROWL
 	db 1, THUNDERSHOCK
 	db 18, THUNDER_WAVE
+	db 22, HEADBUTT
 	db 27, COTTON_SPORE
-	db 39, LIGHT_SCREEN
+	db 37, LIGHT_SCREEN
+	db 42, BODY_SLAM
 	db 47, THUNDERBOLT
 	db 55, THUNDER
 	db 0 ; no more level-up moves
@@ -2817,9 +2828,11 @@ AmpharosEvosAttacks:
 	db 1, GROWL
 	db 1, THUNDERSHOCK
 	db 1, THUNDER_WAVE
+	db 22, HEADBUTT
 	db 27, COTTON_SPORE
 	db 30, THUNDERPUNCH
-	db 39, LIGHT_SCREEN
+	db 37, LIGHT_SCREEN
+	db 42, BODY_SLAM
 	db 47, THUNDERBOLT
 	db 55, THUNDER
 	db 0 ; no more level-up moves
