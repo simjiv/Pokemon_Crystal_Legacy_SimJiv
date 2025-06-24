@@ -1185,6 +1185,7 @@ JohtoGrassWildMons:
 	db 2, ZUBAT
 	db 2, ZUBAT
 	db 4, GEODUDE
+	db 4, PARAS
 	db 2, TEDDIURSA
 	db 2, LARVITAR
 	db 4, DUNSPARCE
@@ -1201,6 +1202,7 @@ JohtoGrassWildMons:
 	db 2, ZUBAT
 	db 2, ZUBAT
 	db 4, GEODUDE
+	db 4, PARAS
 	db 2, ZUBAT
 	db 2, LARVITAR
 	db 4, DUNSPARCE
@@ -1232,6 +1234,7 @@ JohtoGrassWildMons:
 	db 35, WOBBUFFET
 	db 33, GOLBAT
 	db 33, GOLBAT
+	db 35, PARASECT
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_29
