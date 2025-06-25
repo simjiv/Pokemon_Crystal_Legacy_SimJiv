@@ -3349,7 +3349,7 @@ HeracrossEvosAttacks:
     db 18, FURY_ATTACK
     db 25, COUNTER
     db 35, TAKE_DOWN
-    db 44, REVERSAL
+    db 40, REVERSAL
     db 45, MEGAHORN
     db 50, CROSS_CHOP
     db 0 ; no more level-up moves
@@ -3456,13 +3456,13 @@ SwinubEvosAttacks:
 
 PiloswineEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HORN_ATTACK
+	db 1, TACKLE
 	db 1, POWDER_SNOW
 	db 1, ENDURE
 	db 1, MUD_SLAP
 	db 21, ICY_WIND
 	db 28, TAKE_DOWN
-	db 33, FURY_ATTACK
+	db 33, HORN_ATTACK
 	db 39, EARTHQUAKE
 	db 42, MIST
 	db 50, BLIZZARD
