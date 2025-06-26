@@ -318,13 +318,13 @@ JohtoGrassWildMons:
 	db 16, KOFFING
 	db 16, MISDREAVUS
 	db 16, KOFFING
-	db 18, MAGMAR
-	db 18, MAGMAR
+	db 18, MAGBY
+	db 18, MAGby
 	; day
 	db 18, ZUBAT
 	db 17, KOFFING
 	db 16, KOFFING
-	db 16, MAGMAR
+	db 16, MAGBY
 	db 16, KOFFING
 	db 18, MISDREAVUS
 	db 17, MISDREAVUS
@@ -334,8 +334,8 @@ JohtoGrassWildMons:
 	db 16, KOFFING
 	db 16, KOFFING
 	db 16, KOFFING
-	db 18, MAGMAR
-	db 18, MAGMAR
+	db 18, MAGBY
+	db 18, MAGBY
 	end_grass_wildmons
 
 	def_grass_wildmons NATIONAL_PARK
