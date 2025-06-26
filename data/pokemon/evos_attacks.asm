@@ -1939,25 +1939,28 @@ JynxEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, LICK
-	db 1, LOVELY_KISS
 	db 1, POWDER_SNOW
+	db 7, SWEET_KISS
 	db 13, CONFUSION
 	db 17, ICY_WIND
 	db 21, DOUBLESLAP
-	db 25, ICE_PUNCH
-	db 34, LOVELY_KISS
-	db 36, MEAN_LOOK
+	db 25, SING
+	db 30, ICE_PUNCH
+	db 33, MEAN_LOOK
 	db 39, PSYCHIC_M
 	db 41, BODY_SLAM
+	db 46, LOVELY_KISS
 	db 51, PERISH_SONG
 	db 57, BLIZZARD
 	db 0 ; no more level-up moves
 
 ElectabuzzEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
+	db 1, POUND
 	db 1, LEER
-	db 1, QUICK_ATTACK
+	db 1, THUNDERSHOCK
+	db 7, QUICK_ATTACK
+	db 13, FLASH
 	db 17, SPARK
 	db 21, LIGHT_SCREEN
 	db 25, SWIFT
@@ -1970,12 +1973,14 @@ ElectabuzzEvosAttacks:
 
 MagmarEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, EMBER
+	db 1, POUND
 	db 1, LEER
-	db 1, SMOG
+	db 1, EMBER
+	db 7, SMOG
+	db 13, SMOKESCREEN
 	db 17, FLAME_WHEEL
-	db 21, SMOKESCREEN
-	db 25, POISON_GAS
+	db 21, POISON_GAS
+	db 25, HEADBUTT
 	db 30, FIRE_PUNCH
 	db 33, SUNNY_DAY
 	db 41, FLAMETHROWER
@@ -3687,32 +3692,37 @@ HitmontopEvosAttacks:
 SmoochumEvosAttacks:
 	db EVOLVE_LEVEL, 30, JYNX
 	db 0 ; no more evolutions
-	db 1, POWDER_SNOW
-	db 1, LICK
 	db 1, POUND
+	db 1, LICK
+	db 1, POWDER_SNOW
 	db 7, SWEET_KISS
+	db 13, CONFUSION
 	db 17, ICY_WIND
-	db 21, CONFUSION
+	db 21, DOUBLE_SLAP
 	db 25, SING
 	db 30, ICE_PUNCH
 	db 33, MEAN_LOOK
-	db 37, PSYCHIC_M
-	db 45, PERISH_SONG
-	db 49, BLIZZARD
+	db 39, PSYCHIC_M
+	db 41, BODY_SLAM
+	db 46, LOVELY_KISS
+	db 51, PERISH_SONG
+	db 57, BLIZZARD
 	db 0 ; no more level-up moves
 
 ElekidEvosAttacks:
 	db EVOLVE_LEVEL, 30, ELECTABUZZ
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
-	db 1, LEER
 	db 1, POUND
+	db 1, LEER
+	db 1, THUNDERSHOCK
 	db 7, QUICK_ATTACK
+	db 13, FLASH
 	db 17, SPARK
 	db 21, LIGHT_SCREEN
 	db 25, SWIFT
 	db 30, THUNDERPUNCH
-	db 36, SCREECH
+	db 33, SCREECH
+	db 38, SUBMISSION
 	db 42, THUNDERBOLT
 	db 52, THUNDER
 	db 0 ; no more level-up moves
@@ -3720,13 +3730,14 @@ ElekidEvosAttacks:
 MagbyEvosAttacks:
 	db EVOLVE_LEVEL, 30, MAGMAR
 	db 0 ; no more evolutions
-	db 1, EMBER
-	db 1, LEER
 	db 1, POUND
+	db 1, LEER
+	db 1, EMBER
 	db 7, SMOG
+	db 13, SMOKESCREEN
 	db 17, FLAME_WHEEL
-	db 21, SMOKESCREEN
-	db 25, POISON_GAS
+	db 21, POISON_GAS
+	db 25, HEADBUTT
 	db 30, FIRE_PUNCH
 	db 33, SUNNY_DAY
 	db 41, FLAMETHROWER
