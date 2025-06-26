@@ -6,7 +6,7 @@
 	db NORMAL, NORMAL ; type
 	db 35 ; catch rate
 	db 61 ; base exp
-	db MIRACLEPOWDER, NO_ITEM ; items
+	db MIRACLEPOWDER, MIRACLEPOWDER ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
