@@ -670,6 +670,7 @@ JohtoGrassWildMons:
 	db 30, RATICATE
 	db 30, GOLBAT
 	db 28, MARILL
+	db 28, PARASECT
 	db 32, GOLBAT
 	db 32, GOLBAT
 	end_grass_wildmons
@@ -725,6 +726,7 @@ JohtoGrassWildMons:
 	db 22, ZUBAT
 	db 22, GOLBAT
 	db 23, DELIBIRD
+	db 21, SMOOCHUM
 	db 24, GOLBAT
 	db 22, GOLBAT
 	db 22, GOLBAT
@@ -1584,6 +1586,7 @@ JohtoGrassWildMons:
 	db 22, FARFETCH_D
 	db 23, FLAAFFY
 	db 22, RATICATE
+	db 22, ELEKID
 	db 24, SKARMORY
 	db 24, SKARMORY
 	; day
@@ -1592,6 +1595,7 @@ JohtoGrassWildMons:
 	db 22, FARFETCH_D
 	db 23, FLAAFFY
 	db 22, RATICATE
+	db 22, ELEKID
 	db 24, SKARMORY
 	db 24, SKARMORY
 	; nite
@@ -1600,6 +1604,7 @@ JohtoGrassWildMons:
 	db 22, RATICATE
 	db 23, FLAAFFY
 	db 23, VENOMOTH
+	db 22, ELEKID
 	db 24, SKARMORY
 	db 24, SKARMORY
 	end_grass_wildmons
