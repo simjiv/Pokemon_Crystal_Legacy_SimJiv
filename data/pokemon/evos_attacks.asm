@@ -559,6 +559,7 @@ VulpixEvosAttacks:
 	db 37, SHADOW_BALL
 	db 40, SUNNY_DAY
 	db 45, FIRE_SPIN
+	db 50, DESTINY_BOND
 	db 55, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -575,6 +576,7 @@ NinetalesEvosAttacks:
 	db 37, SHADOW_BALL
 	db 40, SUNNY_DAY
 	db 45, FIRE_SPIN
+	db 50, DESTINY_BOND
 	db 55, FIRE_BLAST
 	db 0 ; no more level-up moves
 
