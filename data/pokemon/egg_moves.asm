@@ -28,6 +28,7 @@ CharmanderEggMoves:
 	db BITE
 	db OUTRAGE
 	db BEAT_UP
+	db CRUNCH
 	db -1 ; end
 
 SquirtleEggMoves:
