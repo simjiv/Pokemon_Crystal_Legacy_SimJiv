@@ -3551,7 +3551,6 @@ SkarmoryEvosAttacks:
 	db 31, STEEL_WING
 	db 37, FURY_ATTACK
 	db 41, DRILL_PECK
-	db 50, SHARPEN
 	db 0 ; no more level-up moves
 
 	HoundourEvosAttacks:
